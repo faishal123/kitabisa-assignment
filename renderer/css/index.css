@@ -1,0 +1,10 @@
+@import "./reset.css";
+@import "./links.css";
+@import "./code.css";
+@import "./page-transition-loading-animation.css";
+
+* {
+	color: #202020;
+	margin: 0;
+	padding: 0;
+}

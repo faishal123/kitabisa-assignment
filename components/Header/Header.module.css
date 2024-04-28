@@ -1,0 +1,18 @@
+.container {
+	padding: 20px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logoContainer {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+@media (max-width: 500px) {
+	.container {
+		flex-direction: column;
+		gap: 20px;
+	}
+}
